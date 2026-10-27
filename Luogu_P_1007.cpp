@@ -30,7 +30,7 @@ void solve()
     int mn = 0, mx = 0;
     rep(i, 1, n) mn = max(mn, min(a[i], L - a[i] + 1));
     rep(i, 1, n) mx = max(mx, max(a[i], L - a[i] + 1));
-    cout << mn << " "<< mx;
+    cout << mn << " " << mx;
 }
 int main()
 {
